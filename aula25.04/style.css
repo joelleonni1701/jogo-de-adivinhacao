@@ -17,6 +17,16 @@
 
 }
 .btm.hover{
-    background-color: blueviolet;
-    color:white;
+    background-color: rgba(25, 124, 131, 0.411);
+    color:rgb(255, 255, 255);
+}
+body{
+    background-color: rgba(6, 103, 141, 0.986);
+    color: rgb(78, 18, 90);
+    p {
+        color: rgb(0, 174, 255); /* Define a cor do texto como azul */
+        background-color: rgb(30, 32, 196); /* Define a cor de fundo como amarelo claro */
+        border: 1px solid black; /* Define uma borda sólida preta de 1 pixel */
+      }
+
 }

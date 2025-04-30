@@ -2,22 +2,32 @@
     <html lang="pt-br">
         <head>
          <meta charset="UTF-8">
-         <meta name="viewport" content="width-width, inital-scale=1.0">
+         <meta name="viewport" content="width-width" inital-scale="1.0">
          <title> palavra secreta </title> 
          <link rel="stylesheet" href="style.css">
         </head>
         <body>
+            <header>
+                <h1>Jogo de Adivinhação de palavras</h1>
+            </header>
+            
             <div class="conteiner">
-                <h1>Adivinha a Palavra secreta</h1>
+                <h2>Adivinha a Palavra secreta</h2>
+                <p id="paragrafo_dicas"onmouseenter="mostrar_dica()">Passe o mouse para ver a primeira dica!</p>
                 <div class="input_conteiner">
                     <input type="text" id="txt_input"placeholde= "digite aqui...">
                     <button class="txt" onclick="adivinha()">adivinha</button>
                 </div>
-                <div class="resultado" id="resultado">
-                    <p id="paragrafo_dicas"></p>
+                <div class="resultado" id="resultado"></div>
                     <p id="paragrafo_tentativas"></p>
+
+
                 </div>
+
             </div>
+            <footer>
+                <p>Desenvolva por <a href="https://github.com/vastolorde117" target="_blank">vastolorde117 &copy;</a></p>
+            </footer>
 
 
             <script src="script.js"></script>
